@@ -35,6 +35,10 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
     navigate("/home");
   };
 
+  const goSignup = () => {
+    navigate("/signup");
+  };
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
   const sliderRef = useRef<HTMLDivElement>(null);
@@ -232,7 +236,7 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
                     <Moon className="w-5 h-5" />
                   )}
                 </button>
-                <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+                <button onClick={goSignup} className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
                   Sign Up
                 </button>
               </div>
@@ -304,7 +308,10 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
                 AI-generated websites, tailored to your needs. Simple, powerful,
                 and creative – build your website in minutes efficiently.
               </p>
-              <button onClick={handleClick} className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 text-lg">
+              <button
+                onClick={handleClick}
+                className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 text-lg"
+              >
                 Get Started
               </button>
             </div>
@@ -530,19 +537,35 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
                     />
                   </div>
                 </div>
-                <div>
-                  <label
-                    htmlFor="subject"
-                    className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
-                  >
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white transition-colors duration-300"
-                    placeholder="How can we help?"
-                  />
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label
+                      htmlFor="phone"
+                      className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                    >
+                      Phone Number
+                    </label>
+                    <input
+                      type="number"
+                      id="phone"
+                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white transition-colors duration-300"
+                      placeholder="Enter you phone number"
+                    />
+                  </div>
+                  <div>
+                    <label
+                      htmlFor="subject"
+                      className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                    >
+                      Subject
+                    </label>
+                    <input
+                      type="text"
+                      id="subject"
+                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white transition-colors duration-300"
+                      placeholder="How can we help?"
+                    />
+                  </div>
                 </div>
                 <div>
                   <label
