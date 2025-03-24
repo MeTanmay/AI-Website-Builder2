@@ -41,7 +41,7 @@ export const Signup = ({ isDarkMode, setIsDarkMode }: { isDarkMode: boolean; set
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <Link to="/" className="flex-shrink-0">
-                <span className="text-2xl font-bold text-blue-600">Solid</span>
+                <span className="text-2xl font-bold text-blue-600">AI WEBSITE BUILDER</span>
               </Link>
             </div>
             
@@ -239,7 +239,7 @@ export const Signup = ({ isDarkMode, setIsDarkMode }: { isDarkMode: boolean; set
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
             <div className="col-span-2">
-              <span className="text-2xl font-bold text-blue-500">Solid</span>
+              <span className="text-2xl font-bold text-blue-500">AI WEBSITE BUILDER</span>
               <p className="mt-4 text-gray-400 max-w-xs">
                 Build beautiful websites in minutes with AI-powered tools. Simple, powerful, and creative.
               </p>
@@ -270,7 +270,7 @@ export const Signup = ({ isDarkMode, setIsDarkMode }: { isDarkMode: boolean; set
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800">
-            <p className="text-center text-gray-400">&copy; 2025 Solid. All rights reserved.</p>
+            <p className="text-center text-gray-400">&copy; 2025 AI WEBSITE BUILDER. All rights reserved.</p>
           </div>
         </div>
       </footer>
