@@ -190,7 +190,7 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <span className="text-2xl font-bold text-blue-600">Solid</span>
+                <span className="text-2xl font-bold text-blue-600">AI WEBSITE BUILDER</span>
               </div>
             </div>
 
@@ -302,11 +302,12 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-                Build Website Quickly With Solid AI
+                Build Website Quickly With AI
               </h1>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-                AI-generated websites, tailored to your needs. Simple, powerful,
-                and creative – build your website in minutes efficiently.
+              Generate a fully functional website with AI—customized, efficient, and ready to go in no time. Whether you need a portfolio, business site, or e-commerce store, our AI crafts a perfect design, so you can focus on growing your brand.
+
+
               </p>
               <button
                 onClick={handleClick}
@@ -327,7 +328,7 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 bg-white dark:bg-gray-900">
+      <section id="features" className="py-20 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">
             Powerful Features
@@ -339,7 +340,7 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
                 className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="mb-4">{feature.icon}</div>
-                <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
+                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
                   {feature.title}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
@@ -352,7 +353,7 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
       </section>
 
       {/* Templates Section */}
-      <section id="templates" className="py-20 bg-gray-50 dark:bg-gray-800">
+      <section id="templates" className="py-20 bg-white dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">
             Website Templates
@@ -390,7 +391,7 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials" className="py-20 bg-white dark:bg-gray-900">
+      <section id="testimonials" className="py-20 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">
             What Our Users Say
@@ -451,7 +452,7 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-20 bg-gray-50 dark:bg-gray-800">
+      <section id="faq" className="py-20 bg-white dark:bg-gray-800">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">
             Frequently Asked Questions
@@ -473,7 +474,7 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-white dark:bg-gray-900">
+      <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
@@ -488,7 +489,7 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
                 <div className="flex items-center">
                   <Mail className="w-6 h-6 text-blue-500 mr-3" />
                   <span className="text-gray-600 dark:text-gray-300">
-                    contact@solidai.com
+                    contact@aiwebsitebuilder.com
                   </span>
                 </div>
                 <div className="flex items-center">
@@ -598,7 +599,7 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
             <div className="col-span-2">
-              <span className="text-2xl font-bold text-blue-500">Solid</span>
+              <span className="text-2xl font-bold text-blue-500">AI WEBSITE BUILDER</span>
               <p className="mt-4 text-gray-400 max-w-xs">
                 Build beautiful websites in minutes with AI-powered tools.
                 Simple, powerful, and creative.
@@ -679,7 +680,7 @@ export const Hero = ({ isDarkMode, setIsDarkMode }: HeroProps) => {
           <div className="mt-12 pt-8 border-t border-gray-800">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400">
-                © 2025 Solid. All rights reserved.
+                © 2025 AI WEBSITE BUILDER. All rights reserved.
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 {footerLinks.legal.map((link, index) => (
