@@ -1,24 +1,24 @@
-import React from 'react';
-import { useEffect, useState } from 'react';
+// import React from 'react';
+// import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './pages/Home';
 // import { Hero } from './pages/Hero';
 // import { Signup } from './pages/Signup';
 // import { Signin } from './pages/Signin';
 import { Builder } from './pages/Builder';
-import { parseXml } from './steps';
+// import { parseXml } from './steps';
 
 function App() {
 
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  // const [isDarkMode, setIsDarkMode] = useState(false);
 
-  useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [isDarkMode]);
+  // useEffect(() => {
+  //   if (isDarkMode) {
+  //     document.documentElement.classList.add('dark');
+  //   } else {
+  //     document.documentElement.classList.remove('dark');
+  //   }
+  // }, [isDarkMode]);
 
 
   return (
