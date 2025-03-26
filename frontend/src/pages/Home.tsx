@@ -29,7 +29,7 @@ export function Home() {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black flex items-center justify-center p-4 overflow-hidden relative">
       <div className="absolute top-6 left-6 flex items-center space-x-2 z-50">
         <Wand2 className="w-8 h-8 text-blue-500" />
-        <span className="text-2xl font-bold text-white">Solid</span>
+        <span className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">Solid</span>
       </div>
 
       <div className="absolute top-6 right-6 flex space-x-4 z-50">
