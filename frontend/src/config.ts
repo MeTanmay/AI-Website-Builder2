@@ -1,1 +1,1 @@
-export const BACKEND_URL = https://ai-website-builder2-backend.onrender.com;
+export const BACKEND_URL = "https://ai-website-builder2-backend.onrender.com";
