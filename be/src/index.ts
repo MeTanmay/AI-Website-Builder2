@@ -62,6 +62,10 @@ app.post("/chat", async (req, res) => {
     });
 })
 
+app.get("/", (req, res) => {
+    res.json({ message: "Backend is working!" });
+});
+
 // app.listen(3000);
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
